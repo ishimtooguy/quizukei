@@ -1,0 +1,13 @@
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('sumimasen, bijutsukan no chikaku no hoteru made no michi ooshiete kudasai.', '', 'Excuse me, how do I get to the hotel near the museum?', 2, 1, 2);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ichiban toshiue no onnanoko wa toshishita no onnanokotachi ni hon wo yonde imasu', '', 'The oldest girl is reading to the younger girls', 2, 2, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa Ro-ma ni sunde imashita. Ro-ma ni sunde itatoki ni kodomo deshita.', '', 'I lived in Rome when I was a child (I lived in Rome. When I lived in Rome I was a child.)', 2, 2, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa basu wo matte imashita. basu wo matte itatoki ni ame ga futte imashita.', '', 'We waited for the bus. It was raining while we waited for the bus.', 2, 2, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa onaji shogakukou no seito deshita. ima, watashitachi wa onaji daigaku no gakusei desu.', '', 'We were students at the same primary school. Now, we’re students at the same college.', 2, 2, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('musukosan wa nani o benkyosuru no ga suki desu ka. (kare wa rika o benkyosuru no ga suki desu)', '', 'What does (your) son like to study? (He likes to study science.)', 2, 2, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa kodomo no toki ni, oyogimashita', '', 'I swam when I was a child', 2, 2, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('musume ga nihon de benkyoshite itatoki ni, tegami o kuremashita', '', 'My daughter gave me letters when she studied in Japan', 2, 2, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('karera wa kaigan ni kimasu', '', 'They are coming from the beach', 2, 3, 1);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojo wa shiai ni tsukimasu / kanojo wa shiai o demasu', '', 'She is arriving at the match / she is leaving the match', 2, 3, 1);
