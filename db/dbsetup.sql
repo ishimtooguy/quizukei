@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS sentence
 (
     id              BIGINT AUTO_INCREMENT PRIMARY KEY,
     jpn             TEXT CHARACTER SET UTF8 NOT NULL,
+    romaji          TEXT CHARACTER SET UTF8 NOT NULL,
     en              TEXT CHARACTER SET UTF8 NOT NULL,
     level           INTEGER,
     unit            INTEGER,
