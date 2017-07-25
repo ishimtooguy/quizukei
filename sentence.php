@@ -10,6 +10,7 @@
     {
         public $id;
         public $jpn;
+        public $romaji;
         public $en;
         public $level;
         public $unit;
