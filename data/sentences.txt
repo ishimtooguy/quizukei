@@ -11,3 +11,17 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('musume ga n
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('karera wa kaigan ni kimasu', '', 'They are coming from the beach', 2, 3, 1);
 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojo wa shiai ni tsukimasu / kanojo wa shiai o demasu', '', 'She is arriving at the match / she is leaving the match', 2, 3, 1);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Pa-ti- ga hajimarimasu / pa-ti- ga owarimasu', '', 'Party is beginning / party is ending', 2, 3, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Nanika nomimono wo moratte mo ii desu ka / Hai ocha o do-zo-', '', 'Can I get something to drink? / Yes, have some tea.', 2, 3, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Yu-gohan wa deza-to de owarimasu', '', 'Dinner is ending with dessert', 2, 3, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Nanika motte itte mo ii desu ka / Hai. Salada o motte kite kudasai', '', 'Can I bring something? / Yes. Please bring salad.', 2, 3, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Hachiji ni koko ni kuru koto ga dekimasu ka / Hai, hachiji ni soko ni iku koto ga dekimasu', '', 'Can I come here at 8:00? / Yes, can go there at 8:00.', 2, 3, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa nihon ni iku toki ni, nihongo wo benkyo-surutsumori desu', '', 'When he goes to Japan, he will study Japanese.', 2, 4, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa daigaku no ato ni suugaku wo oshierutsumori desu', '', 'She intends to teach math after college (tsumori ~ intend)', 2, 4, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi to odotte kuremasen ka', '', 'Won’t you dance with me?', 2, 4, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo torutsumori desu', '', 'She intends to take a picture of the famous building', 2, 4, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo totte imasu', '', 'She’s taking a picture of the famous building', 2, 3, 1);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin o torimashita', '', 'She’s took a picture of the famous building', 2, 3, 1);
