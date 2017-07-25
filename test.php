@@ -33,14 +33,16 @@
                 <?php
                     if (isset($sentence))
                     {
-                        echo "<p># " . $sentence->id . ":</p>";
-                        echo "<h4>". $sentence->romaji . "</h4>";
-                        echo "<p>". $sentence->en . "</p>";
+                        echo '<p id="sentenceId"># ' . $sentence->id . ': ';
+                        echo '<span id="lessonInfo">Level: '. $sentence->level .', Unit: '. $sentence->unit .', Lesson: '. $sentence->lesson .'</span>';
+                        echo '</p>';
+                        echo '<h4>'. $sentence->romaji . '</h4>';
+                        echo '<p id="sentenceEn">'. $sentence->en . '</p>';
                         unset($sentence);
                     }
                     else
                     {
-                        echo "No sentences found!<br>";
+                        echo 'No sentences found!';
                     }
                 ?>
             </div>
@@ -51,7 +53,6 @@
             </form>
         </div>
 
-        <br><br>
         <footer>
             <hr>
             <p>Copyright &copy; 2017 gxgbits.com. All rights reserved.</p>
