@@ -14,18 +14,23 @@
     $sentence = $sentenceDAO->get($filter);
     if (isset($sentence) && (NULL != $sentence->id))
     {
+        echo "<p># " . $sentence->id . ":</p>";
         echo "<h4>". $sentence->romaji . "</h4>";
         echo "<p>". $sentence->en . "</p>";
-        echo "<p>ID: " . $sentence->id . "</p>";
-        if (isset($filter))
-        {
-            echo "<p>Filter:". $filter . ", len:" . strlen($filter) . "</p>";
-        }
+        // if (isset($filter))
+        // {
+        //     echo "<p>Filter:". $filter . ", len:" . strlen($filter) . "</p>";
+        // }
 
         unset($sentence);
     }
     else
     {
-        echo "<p>No sentences found!</p>";
+        $msg = 'No sentences found';
+        if (isset($filter))
+        {
+            $msg .= ' with filter "' . $filter . '"';
+        }
+        echo '<p>' . $msg . '!</p>';
     }
 ?>

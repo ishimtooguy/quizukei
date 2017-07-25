@@ -29,17 +29,13 @@
     </head>
     <body>
         <div id="container">
-            <form id="filterForm">
-                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text">
-                <input type="submit" id="submit" value="Submit">
-            </form>
             <div id="result">
                 <?php
                     if (isset($sentence))
                     {
+                        echo "<p># " . $sentence->id . ":</p>";
                         echo "<h4>". $sentence->romaji . "</h4>";
                         echo "<p>". $sentence->en . "</p>";
-                        echo "<p>(ID: " . $sentence->id . ")</p>";
                         unset($sentence);
                     }
                     else
@@ -48,6 +44,11 @@
                     }
                 ?>
             </div>
+
+            <form id="filterForm">
+                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text">
+                <input type="submit" id="submit" value="Submit">
+            </form>
         </div>
 
         <br><br>
