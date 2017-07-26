@@ -22,6 +22,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
 
+        <script src="https://use.fontawesome.com/73fcc4c251.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/script.js"></script>
 
@@ -48,8 +49,9 @@
             </div>
 
             <form id="filterForm">
-                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text">
-                <input type="submit" id="submit" value="Submit">
+                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text" autofocus="autofocus">
+                <button type="reset" id="clear"><i class="fa fa-remove"></i></button>
+                <button type="submit" class="btn btn-default" id="submit"><i class="fa fa-random"></i> &#x3064 &#x304e</button>
             </form>
         </div>
 

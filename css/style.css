@@ -41,12 +41,25 @@ position:relative;
     border-radius:3px;
 }
 
+#clear
+{
+    border-radius:3px;
+    margin:5px 5px;
+    background:#333;
+    color:#f77;
+}
+
+#filterForm button:focus
+{
+    background:#666;
+}
+
 #submit
 {
     border-radius:3px;
     margin:5px 5px;
-    background:#666;
-    color:white;
+    background:#333;
+    color:#0f5;
 }
 
 footer hr
