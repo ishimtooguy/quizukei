@@ -2,9 +2,65 @@ body
 {
     font-family:"Arial", sans-serif;
     font-size:14px;
+    background:black;
+    color:white;
+height:100%;
+margin:0;
+padding:0;
 }
 
 #container
 {
+    margin:auto;
+    padding:40px 40px;
+min-height:100%;
+position:relative;
+}
+
+#sentenceEn
+{
+    color:gold;
+}
+
+#filterForm
+{
     margin:20px auto;
+    margin-top:50px;
+    border:#ccc 1px solid;
+    border-radius:5px;
+    width:298px;
+}
+
+#filterInput
+{
+    margin:5px 5px;
+    width:200px;
+    background:black;
+    color:white;
+    border:#222 1px solid;
+    border-radius:3px;
+}
+
+#submit
+{
+    border-radius:3px;
+    margin:5px 5px;
+    background:#666;
+    color:white;
+}
+
+footer hr
+{
+    color:#010101;
+}
+
+footer
+{
+    font-size:11px;
+    text-align:center;
+position:absolute;
+bottom:0;
+width:100%;
+height:40px;
+background:#111;
 }

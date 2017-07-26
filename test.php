@@ -54,7 +54,6 @@
         </div>
 
         <footer>
-            <hr>
             <p>Copyright &copy; 2017 gxgbits.com. All rights reserved.</p>
         </footer>
     </body>
