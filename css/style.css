@@ -1,7 +1,7 @@
 body
 {
     font-family:"Arial", sans-serif;
-    font-size:14px;
+    font-size:20px;
     background:black;
     color:white;
     height:100%;
@@ -19,7 +19,7 @@ body
 
 #result
 {
-    min-height:110px;
+    min-height:200px;
 }
 
 #qkarrow
@@ -46,27 +46,29 @@ body
     margin-top:50px;
     border:#ccc 1px solid;
     border-radius:5px;
-    width:258px;
+    width:330px;
 }
 
 #filterInput
 {
     margin:5px 5px;
     margin-right:0;
-    width:200px;
+    width:250px;
     background:black;
     color:white;
     border:#222 1px solid;
     border-radius:3px;
+    font-size:1em;
 }
 
 #clear
 {
     border-radius:3px;
-    margin:5px 2px;
+    margin:2px 2px;
     margin-left:0;
     background:#333;
     color:#f77;
+    font-size:0.7em;
 }
 
 #filterForm button:focus
@@ -80,6 +82,7 @@ body
     margin:5px 5px;
     background:#333;
     color:#0f5;
+    font-size:1em;
 }
 
 #lessonInfo
@@ -94,7 +97,7 @@ footer hr
 
 footer
 {
-    font-size:11px;
+    font-size:12px;
     text-align:center;
     position:absolute;
     bottom:0;
