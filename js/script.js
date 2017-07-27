@@ -15,6 +15,8 @@ $(document).ready(
                         success: function(html)
                             {
                                 $('#result').html(html);
+
+                                setHoverBehavior();
                             }
                     }
                 );
@@ -22,5 +24,31 @@ $(document).ready(
                 return false;
             }
         );
+
+        setHoverBehavior();
     }
 );
+
+function setHoverBehavior()
+{
+    $('#sentenceId').hover(
+        function()
+        {
+            $('#lessonInfo').fadeToggle();
+        }
+    );
+
+    $('#sentenceId').click(
+        function()
+        {
+            $('#lessonInfo').fadeIn();
+        }
+    );
+
+    $('#result h4').hover(
+        function()
+        {
+            $('#sentenceEn').slideToggle();
+        }
+    );
+}

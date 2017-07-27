@@ -17,7 +17,7 @@
         echo '<p id="sentenceId"># ' . $sentence->id . ': ';
         echo '<span id="lessonInfo">Level: '. $sentence->level .', Unit: '. $sentence->unit .', Lesson: '. $sentence->lesson .'</span>';
         echo '</p>';
-        echo '<h4>'. $sentence->romaji . '</h4>';
+        echo '<h4><i id="qkarrow" class="fa fa-chevron-circle-right" aria-hidden="true"></i> '. $sentence->romaji . '</h4>';
         echo '<p id="sentenceEn">'. $sentence->en . '</p>';
         // if (isset($filter))
         // {

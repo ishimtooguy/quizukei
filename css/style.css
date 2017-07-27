@@ -17,10 +17,17 @@ min-height:100%;
 position:relative;
 }
 
+#result
+{
+    min-height:110px;
+}
+
 #sentenceEn
 {
     color:gold;
+    display:none;
 }
+
 
 #filterForm
 {
@@ -28,12 +35,13 @@ position:relative;
     margin-top:50px;
     border:#ccc 1px solid;
     border-radius:5px;
-    width:298px;
+    width:258px;
 }
 
 #filterInput
 {
     margin:5px 5px;
+    margin-right:0;
     width:200px;
     background:black;
     color:white;
@@ -44,7 +52,8 @@ position:relative;
 #clear
 {
     border-radius:3px;
-    margin:5px 5px;
+    margin:5px 2px;
+    margin-left:0;
     background:#333;
     color:#f77;
 }
@@ -60,6 +69,11 @@ position:relative;
     margin:5px 5px;
     background:#333;
     color:#0f5;
+}
+
+#lessonInfo
+{
+    display:none;
 }
 
 footer hr
