@@ -22,6 +22,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
 
+        <script src="https://use.fontawesome.com/73fcc4c251.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/script.js"></script>
 
@@ -33,27 +34,28 @@
                 <?php
                     if (isset($sentence))
                     {
-                        echo "<p># " . $sentence->id . ":</p>";
-                        echo "<h4>". $sentence->romaji . "</h4>";
-                        echo "<p>". $sentence->en . "</p>";
+                        echo '<p id="sentenceId"># ' . $sentence->id . ': ';
+                        echo '<span id="lessonInfo">Level: '. $sentence->level .', Unit: '. $sentence->unit .', Lesson: '. $sentence->lesson .'</span>';
+                        echo '</p>';
+                        echo '<h4><i id="qkarrow" class="fa fa-chevron-circle-right" aria-hidden="true"></i> '. $sentence->romaji . '</h4>';
+                        echo '<p id="sentenceEn">'. $sentence->en . '</p>';
                         unset($sentence);
                     }
                     else
                     {
-                        echo "No sentences found!<br>";
+                        echo 'No sentences found!';
                     }
                 ?>
             </div>
 
             <form id="filterForm">
-                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text">
-                <input type="submit" id="submit" value="Submit">
+                <input type="text" id="filterInput" placeholder="(Optional) Enter filter text" autofocus="autofocus">
+                <button type="reset" id="clear"><i class="fa fa-remove"></i></button>
+                <button type="submit" class="btn btn-default" id="submit"><i class="fa fa-random"></i> &#x3064 &#x304e</button>
             </form>
         </div>
 
-        <br><br>
         <footer>
-            <hr>
             <p>Copyright &copy; 2017 gxgbits.com. All rights reserved.</p>
         </footer>
     </body>

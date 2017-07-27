@@ -3,7 +3,7 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ichiban tos
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa Ro-ma ni sunde imashita. Ro-ma ni sunde itatoki ni kodomo deshita.', '', 'I lived in Rome when I was a child (I lived in Rome. When I lived in Rome I was a child.)', 2, 2, 3);
 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa basu wo matte imashita. basu wo matte itatoki ni ame ga futte imashita.', '', 'We waited for the bus. It was raining while we waited for the bus.', 2, 2, 3);
-INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa onaji shogakukou no seito deshita. ima, watashitachi wa onaji daigaku no gakusei desu.', '', 'We were students at the same primary school. Now, we’re students at the same college.', 2, 2, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa onaji shogakukou no seito deshita. ima, watashitachi wa onaji daigaku no gakusei desu.', '', 'We were students at the same primary school. Now, we''re students at the same college.', 2, 2, 3);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('musukosan wa nani o benkyosuru no ga suki desu ka. (kare wa rika o benkyosuru no ga suki desu)', '', 'What does (your) son like to study? (He likes to study science.)', 2, 2, 3);
 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa kodomo no toki ni, oyogimashita', '', 'I swam when I was a child', 2, 2, 4);
@@ -20,8 +20,8 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Hachiji ni 
 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa nihon ni iku toki ni, nihongo wo benkyo-surutsumori desu', '', 'When he goes to Japan, he will study Japanese.', 2, 4, 1);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa daigaku no ato ni suugaku wo oshierutsumori desu', '', 'She intends to teach math after college (tsumori ~ intend)', 2, 4, 1);
-INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi to odotte kuremasen ka', '', 'Won’t you dance with me?', 2, 4, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi to odotte kuremasen ka', '', 'Won''t you dance with me?', 2, 4, 1);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo torutsumori desu', '', 'She intends to take a picture of the famous building', 2, 4, 1);
-INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo totte imasu', '', 'She’s taking a picture of the famous building', 2, 3, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo totte imasu', '', 'She''s taking a picture of the famous building', 2, 3, 1);
 
-INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin o torimashita', '', 'She’s took a picture of the famous building', 2, 3, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin o torimashita', '', 'She took a picture of the famous building', 2, 3, 1);
