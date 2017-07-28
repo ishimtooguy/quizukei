@@ -14,9 +14,11 @@ $(document).ready(
                         cache:false,
                         success: function(html)
                             {
+                                $('#helpicon').fadeOut(1);
                                 $('#result').html(html);
 
                                 setHoverBehavior();
+                                setTimeout(function(){ showHelpIcon(0)}, 2500);
                             }
                     }
                 );
@@ -26,8 +28,23 @@ $(document).ready(
         );
 
         setHoverBehavior();
+        setTimeout(function(){ showHelpIcon(2)}, 2500);
     }
 );
+
+function showHelpIcon(flashCount)
+{
+    $('#helpicon').fadeIn(1000);
+
+    if (flashCount > 0)
+    {
+        for (ii=0; ii < flashCount; ii++)
+        {
+            $('#helpicon').fadeOut(700);
+            $('#helpicon').fadeIn(700);
+        }
+    }
+}
 
 function setHoverBehavior()
 {
@@ -48,6 +65,7 @@ function setHoverBehavior()
     $('#result h4').hover(
         function()
         {
+            $('#qkarrow').toggleClass("rotate");
             $('#sentenceEn').slideToggle();
         }
     );

@@ -17,6 +17,20 @@ body
     position:relative;
 }
 
+#help
+{
+    font-size:1.5em;
+    min-height:40px;
+    text-align:right;
+    padding-right:30px;
+}
+
+#helpicon
+{
+    color:gold;
+    display:none;
+}
+
 #result
 {
     min-height:200px;

@@ -30,6 +30,9 @@
     </head>
     <body>
         <div id="container">
+            <div id="help">
+                <i id="helpicon" class="fa fa-question-circle" aria-hidden="true"></i>
+            </div>
             <div id="result">
                 <?php
                     if (isset($sentence))
