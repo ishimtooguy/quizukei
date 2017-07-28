@@ -28,7 +28,7 @@ body
 #helpicon
 {
     color:gold;
-    cursor:pointer;
+    cursor:help;
     display:none;
 }
 
@@ -48,6 +48,11 @@ body
 #result
 {
     min-height:200px;
+}
+
+#result p, #result h4
+{
+    cursor:default;
 }
 
 #qkarrow

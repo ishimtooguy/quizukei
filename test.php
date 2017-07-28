@@ -37,7 +37,7 @@
                 <p>Tap or hover on the Japanese text to see an English translation.</p>
             </div>
             <div id="helpRandom">
-                <p>Click the <span class="submitText"><i class="fa fa-random"></i></span> button to see a randomly selected Japanese sentence.</p>
+                <p>Click the <span class="submitText"><i class="fa fa-random"></i></span> button to see another randomly selected Japanese sentence.</p>
             </div>
             <div id="result">
                 <?php
