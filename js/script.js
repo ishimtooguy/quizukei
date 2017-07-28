@@ -29,6 +29,14 @@ $(document).ready(
 
         setHoverBehavior();
         setTimeout(function(){ showHelpIcon(2)}, 2500);
+
+        $('#help').click(
+            function()
+            {
+                showHelpJpnText();
+                showHelpRandom();
+            }
+        );
     }
 );
 
@@ -44,6 +52,23 @@ function showHelpIcon(flashCount)
             $('#helpicon').fadeIn(700);
         }
     }
+}
+
+function showHelpJpnText()
+{
+    $('#helpJpnText').show(100);
+    $('#helpJpnText').animate({right:'150px', top:'30px'}, 1000);
+    $('#helpJpnText').delay(3000);
+    $('#helpJpnText').slideUp(500);
+}
+
+function showHelpRandom()
+{
+    $('#helpRandom').delay(5000);
+    $('#helpRandom').slideDown(500);
+    $('#helpRandom').animate({right:'80px', top:'220px'}, 1000);
+    $('#helpRandom').delay(3000);
+    $('#helpRandom').slideUp(500);
 }
 
 function setHoverBehavior()

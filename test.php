@@ -33,6 +33,12 @@
             <div id="help">
                 <i id="helpicon" class="fa fa-question-circle" aria-hidden="true"></i>
             </div>
+            <div id="helpJpnText">
+                <p>Tap or hover on the Japanese text to see an English translation.</p>
+            </div>
+            <div id="helpRandom">
+                <p>Click the <span class="submitText"><i class="fa fa-random"></i></span> button to see a randomly selected Japanese sentence.</p>
+            </div>
             <div id="result">
                 <?php
                     if (isset($sentence))
@@ -54,7 +60,7 @@
             <form id="filterForm">
                 <input type="text" id="filterInput" placeholder="(Optional) Enter filter text" autofocus="autofocus">
                 <button type="reset" id="clear"><i class="fa fa-remove"></i></button>
-                <button type="submit" class="btn btn-default" id="submit"><i class="fa fa-random"></i> &#x3064 &#x304e</button>
+                <button type="submit" class="btn btn-default submitText" id="submit"><i class="fa fa-random"></i> &#x3064 &#x304e</button>
             </form>
         </div>
 

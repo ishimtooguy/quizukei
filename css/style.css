@@ -28,7 +28,21 @@ body
 #helpicon
 {
     color:gold;
+    cursor:pointer;
     display:none;
+}
+
+#helpJpnText, #helpRandom
+{
+    background:#222;
+    border:#666 1px solid;
+    border-radius:3px;
+    color:gold;
+    display:none;
+    float:right;
+    font-style:italic;
+    position:relative;
+    width:270px;
 }
 
 #result
@@ -95,8 +109,12 @@ body
     border-radius:3px;
     margin:5px 5px;
     background:#333;
-    color:#0f5;
     font-size:1em;
+}
+
+.submitText
+{
+    color:#0f5;
 }
 
 #lessonInfo
