@@ -32,17 +32,29 @@ body
     display:none;
 }
 
+#helpOverlayJpn, #helpOverlayRandom
+{
+    position:fixed;
+    display:none;
+    width:30%;
+    height:20%;
+    top:20px;
+    left:50px;
+    right:0;
+    bottom:0;
+    z-index:2;
+}
+
 #helpJpnText, #helpRandom
 {
-    background:#222;
+    position:absolute;
+    font-size:1em;
+    font-style:italic;
     border:#666 1px solid;
     border-radius:3px;
     color:gold;
-    display:none;
-    float:right;
-    font-style:italic;
-    position:relative;
-    width:270px;
+    padding:1px 5px;
+    background-color:rgba(2,2,2,0.8);
 }
 
 #result

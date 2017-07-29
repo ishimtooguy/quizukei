@@ -33,11 +33,15 @@
             <div id="help">
                 <i id="helpicon" class="fa fa-question-circle" aria-hidden="true"></i>
             </div>
-            <div id="helpJpnText">
-                <p>Tap or hover on the Japanese text to see an English translation.</p>
+            <div id="helpOverlayJpn">
+                <div id="helpJpnText">
+                    <p>Tap or hover on the Japanese text to see an English translation.</p>
+                </div>
             </div>
-            <div id="helpRandom">
-                <p>Click the <span class="submitText"><i class="fa fa-random"></i></span> button to see another randomly selected Japanese sentence.</p>
+            <div id="helpOverlayRandom">
+                <div id="helpRandom">
+                    <p>Click the <span class="submitText"><i class="fa fa-random"></i></span> button to see another randomly selected Japanese sentence.</p>
+                </div>
             </div>
             <div id="result">
                 <?php

@@ -56,19 +56,19 @@ function showHelpIcon(flashCount)
 
 function showHelpJpnText()
 {
-    $('#helpJpnText').show(100);
-    $('#helpJpnText').animate({right:'150px', top:'30px'}, 1000);
-    $('#helpJpnText').delay(3000);
-    $('#helpJpnText').slideUp(500);
+    $('#helpOverlayJpn').show(500);
+    $('#helpOverlayJpn').animate({top:'120px', left:'120px'}, 1000);
+    $('#helpOverlayJpn').delay(3000);
+    $('#helpOverlayJpn').slideUp(500);
 }
 
 function showHelpRandom()
 {
-    $('#helpRandom').delay(5000);
-    $('#helpRandom').slideDown(500);
-    $('#helpRandom').animate({right:'80px', top:'220px'}, 1000);
-    $('#helpRandom').delay(3000);
-    $('#helpRandom').slideUp(500);
+    $('#helpOverlayRandom').delay(5000);
+    $('#helpOverlayRandom').show(500);
+    $('#helpOverlayRandom').animate({top:'270px', left:'330px'}, 1000);
+    $('#helpOverlayRandom').delay(3000);
+    $('#helpOverlayRandom').fadeOut(500);
 }
 
 function setHoverBehavior()
