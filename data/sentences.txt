@@ -25,3 +25,18 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin wo totte imasu', '', 'She''s taking a picture of the famous building', 2, 3, 1);
 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojyo wa yumei na tatemono no shyashin o torimashita', '', 'She took a picture of the famous building', 2, 3, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kono eigakan wa machi no chu-shinbu ni arimasu', '', 'this movie theater is in the middle of the city', 2, 4, 2);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa kagi wo mitsukeru koto ga dekinai kara, okotte imasu', '', 'he''s angry because he can''t find the key', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa kagi wo mitsukeru koto ga dekimasu kara, ureshii desu', '', 'he''s happy because he can find the key', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('karera wa sokka wo shite iru kara, ureshii desu', '', 'they''re happy from playing soccer', 2, 4, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa hoteru wo yoyakushimasen deshita. konban koko ni taizai shinakereba ikemasen', '', 'he didn''t make a hotel reservation. tonight he has to stay here.', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa hoteru wo yoyakushimashita. konban koko ni taizai suru koto ga dekimasu.', '', 'he made a hotel reservation. tonight he can stay there', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kono kodomo wa jibun no inu wo mitsukeru koto ga dekinai kara, kanashii desu', '', 'this child can''t find her dog, she''s sad', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('karera wa kaigan ni iru kara, ureshii  desu', '', 'they are happy being at the beach', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kyo- wa nani ga mitai desu ka', '', 'what do you want to see today?', 2, 4, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite naite imasu ka? -michi ni mayoimashita kara.  --okaasan wo mitsukarimasho-', '', 'why are you crying? -because I''m lost. --we''ll find your mother.', 2, 4, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('nani wo motte iku hitsuyo- ga arimasu ka', '', 'what should I bring?', 2, 4, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ashita wa kaze ga tsuyoku narimasu', '', 'tomorrow will be windy (tomorrow the wind will become strong)', 2, 4, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ashita wa nani wo shimasho- ka? -jitenshya ni noru koto ga deskimasu yo.', '', 'what shall we do tomorrow? -we can ride bikes.', 2, 4, 4);
