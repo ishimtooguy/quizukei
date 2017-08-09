@@ -40,3 +40,32 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite na
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('nani wo motte iku hitsuyo- ga arimasu ka', '', 'what should I bring?', 2, 4, 4);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ashita wa kaze ga tsuyoku narimasu', '', 'tomorrow will be windy (tomorrow the wind will become strong)', 2, 4, 4);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ashita wa nani wo shimasho- ka? -jitenshya ni noru koto ga deskimasu yo.', '', 'what shall we do tomorrow? -we can ride bikes.', 2, 4, 4);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('otokonohito wa kawa wo tobikoete imasu', '', 'the man is jumping across the river', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('otokonoko wa saku no mukou ni bo-ru wo nagete imasu', '', 'the boy is throwing a ball to the other side of the fence', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('otokonoko wa saku no mukou ni bo-ru wo nageru tokoro desu', '', 'the boy is ready to throw a ball to the other side of the fence', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kono konpyu-ta wo shu-ri suru no wa muzukashii desu', '', 'it''s difficult to fix this computer', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite ki ni nobottan desu ka? -ringo wo taberu no ga suki na n desu.', '', 'why did you climb the tree? -because I like to eat apples.', 3, 1, 1);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite bo-ru wo toranakattan desu ka? -boku wa segahiku sugiru n desu.', '', 'why didn''t you catch the ball? -because I''m too short.', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('niwa de bo-ru wo nagenai de / niwa de asobunai de', '', 'don''t throw the ball in the garden / don''t play in the garden', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('saku wo tobikoenai de', '', 'don''t jump over the fence', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ki ni noboranai de', '', 'don''t climb the tree', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi no denwa wa kinou shite imasen. shu-ri shite kudasai.', '', 'my phone is not functioning (kinou = function). please fix it.', 3, 1, 1);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi no denwa wa kowarete imasu. shu-ri suru koto ga dekimasu ka?', '', 'my phone is broken. can you fix it?', 2, 4, 4);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('yuka ni soujiki wo kakemashita ka? -iie, kaette kite kara soujiki wo kakeru tsumori desu', '', 'Did you vacuum the floor? -No, I will vacuum after I return.', 3, 1, 2);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('dareka ga nanika wo katte imasu', '', 'Someone is buying something', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('dareka ga nanika wo tsukutte imasu', '', 'Someone is making something', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('takasugimasu yo', '', 'too expensive', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa ie  ni hayaku kaeritai desu ga, kaera nai hou ga ii desu.', '', 'I want to return home soon (quickly) but better not', 3, 1, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('sakka- wo suru no ni, motto ii basho wo mitsukeru hitsuyo- ga arimasu', '', 'we need to find a better place to play soccer', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('koko wa sokka- wo renshu- suru no ni ii basho desu', '', 'Here is a good place to practice soccer', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('koko wa undo- suru no ni warui basho desu', '', 'Here is a bad place to exercise', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('nanika tabemono wo sagashite imasu', '', 'I''m looking for something to eat', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa tokidoki hayaku shigoto kara kaerimasu', '', 'Sometimes I return from work early', 3, 1, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa gakki wo renshu- suru no ni, motto ii basho wo mitsukeru hitsuyo- ga arimasu', '', 'We need to find a better place to practice music', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa undou suru no de, tsuyoi desu', '', 'He is strong because he exercises', 3, 1, 3);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite kyo- renshu- shite irun desu ka? -watashi no chimu- wa ashita shia ga aru n desu', '', 'Why did you practice today? -Because my team has a game tomorrow.', 3, 1, 3);
