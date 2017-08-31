@@ -1,7 +1,7 @@
 body
 {
     font-family:"Arial", sans-serif;
-    font-size:14px;
+    font-size:20px;
     background:black;
     color:white;
     height:100%;
@@ -17,9 +17,54 @@ body
     position:relative;
 }
 
+#help
+{
+    font-size:1.5em;
+    min-height:40px;
+    text-align:right;
+    padding-right:30px;
+}
+
+#helpicon
+{
+    color:gold;
+    cursor:help;
+    display:none;
+}
+
+#helpOverlayJpn, #helpOverlayRandom
+{
+    position:fixed;
+    display:none;
+    width:30%;
+    height:20%;
+    top:20px;
+    left:50px;
+    right:0;
+    bottom:0;
+    z-index:2;
+}
+
+#helpJpnText, #helpRandom
+{
+    position:absolute;
+    font-size:1em;
+    font-style:italic;
+    border:#666 1px solid;
+    border-radius:3px;
+    color:gold;
+    padding:1px 5px;
+    background-color:rgba(2,2,2,0.8);
+}
+
 #result
 {
-    min-height:110px;
+    min-height:200px;
+}
+
+#result p, #result h4
+{
+    cursor:default;
 }
 
 #qkarrow
@@ -46,27 +91,29 @@ body
     margin-top:50px;
     border:#ccc 1px solid;
     border-radius:5px;
-    width:258px;
+    width:330px;
 }
 
 #filterInput
 {
     margin:5px 5px;
     margin-right:0;
-    width:200px;
+    width:250px;
     background:black;
     color:white;
     border:#222 1px solid;
     border-radius:3px;
+    font-size:1em;
 }
 
 #clear
 {
     border-radius:3px;
-    margin:5px 2px;
+    margin:2px 2px;
     margin-left:0;
     background:#333;
     color:#f77;
+    font-size:0.7em;
 }
 
 #filterForm button:focus
@@ -79,6 +126,11 @@ body
     border-radius:3px;
     margin:5px 5px;
     background:#333;
+    font-size:1em;
+}
+
+.submitText
+{
     color:#0f5;
 }
 
@@ -94,7 +146,7 @@ footer hr
 
 footer
 {
-    font-size:11px;
+    font-size:12px;
     text-align:center;
     position:absolute;
     bottom:0;
