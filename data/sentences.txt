@@ -69,3 +69,18 @@ INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi wa 
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashitachi wa gakki wo renshu- suru no ni, motto ii basho wo mitsukeru hitsuyo- ga arimasu', '', 'We need to find a better place to practice music', 3, 1, 3);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kare wa undou suru no de, tsuyoi desu', '', 'He is strong because he exercises', 3, 1, 3);
 INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushite kyo- renshu- shite irun desu ka? -watashi no chimu- wa ashita shia ga aru n desu', '', 'Why did you practice today? -Because my team has a game tomorrow.', 3, 1, 3);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doushita ndesu ka', '', 'what happened?', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('doukashimashita ka', '', 'was something wrong?', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('jitensha kara ochitan desu. hiza wo kegashimashita.', '', 'fell off the bike. injured knee', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('karera wa ski wo shite iru toki ni koronde, ashi wo kegashimasu.', '', 'they fell while skiing and injured their legs.', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kuruma wo shu-ri shite iru toki ni wa kiotsukete kudasai', '', 'please be careful when you fix the car', 3, 1, 4);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('hashigo ni noboru toki ni wa kiyotsukete', '', 'be careful when climbing the ladder', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('soto no kion wa nando desu ka? -sanjyu do desu.', '', 'what''s the outside temperature? -30 degrees., 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('watashi no netsu wa nando desu ka', '', 'what''s my temperature?', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('kanojo wa mizu de kusuri wo nonde imasu', '', 'she drank medicine with water', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('yuugata no ato ni kusuri wo nomanakereba ikemasen yo', '', 'you need to take medicine after dinner', 3, 1, 4);
+
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('ichinichi ni nikai kono kusuri wo nonde', '', 'take this medicine twice a day', 3, 1, 4);
+INSERT INTO sentence (romaji, jpn, en, level, unit, lesson) VALUES ('Pari iki no densha wa ichinichi ni nikai shuppatsushimasu', '', 'train to Paris leaves twice a day', 3, 1, 4);
